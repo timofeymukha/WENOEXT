@@ -46,4 +46,5 @@ libWENOEXT-2.3.x/Make/linux64IccDPInt32Opt
 **/processor*
 !**/Make/files
 !**/Make/options
-
+tutorials/cavity/constant/WENOBase3/
+tutorials/cavity/constant/polyMesh/
