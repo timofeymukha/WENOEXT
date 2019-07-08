@@ -29,11 +29,11 @@ divSchemes
 {
     default         Gauss linear;
     
-	// Example for using semi-implicit WENO convection scheme
-	// - 1.number	: polynomial order r
-	// - 2.number	: additional limiting 
-	//					- 0: unlimited, standard WENO scheme
-	//					- 1: limited, useful for physical related boundaries
+    // Example for using semi-implicit WENO convection scheme
+    // - 1.number   : polynomial order r
+    // - 2.number   : additional limiting 
+    //                  - 0: unlimited, standard WENO scheme
+    //                  - 1: limited, useful for physical related boundaries
     div(phi,U)      Gauss WENOUpwindFit 3 0;
 }
 
