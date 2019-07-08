@@ -1,0 +1,49 @@
+# Prerequisites
+**.d
+
+# Compiled Object files
+**.slo
+**.lo
+**.o
+**.obj
+
+# Precompiled Headers
+**.gch
+**.pch
+
+# Compiled Dynamic libraries
+**.so
+**.dylib
+**.dll
+
+# Fortran module files
+**.mod
+**.smod
+
+# Compiled Static libraries
+**.lai
+**.la
+**.a
+**.lib
+
+# Executables
+**.exe
+**.out
+**.app
+
+# Netbeans IDE project files
+nbproject/
+
+lnInclude/
+
+**.dep
+**.swp
+**.swo
+
+libWENOEXT-2.3.x/lnInclude/
+**/Make/*
+libWENOEXT-2.3.x/Make/linux64IccDPInt32Opt
+**/processor*
+!**/Make/files
+!**/Make/options
+
